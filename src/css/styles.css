@@ -18,3 +18,50 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.country-item {
+ 
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.country-title {
+  font: inherit;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+
+.flag {
+  margin-right: 5px;
+}
+
+.country-box {
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+
+.country-text {
+  margin-bottom: 15px;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+
+.country-span {
+  font-weight: 700;
+}
