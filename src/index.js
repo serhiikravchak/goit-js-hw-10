@@ -27,7 +27,7 @@ function onInput(evt) {
 
     fetchCountries(inputQuery).then(country => {
         clearMarkup();
-        if (inputQuery === 'russia') {
+        if (inputQuery === 'russi' || inputQuery === 'russia' ) {
             renderRussia(country)
         } else
         if (country.length === 1) {
